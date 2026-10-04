@@ -1,0 +1,91 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< florahub.backend:App >------------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.1:run (default-cli) > test-compile @ App >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ App ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ App ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ App ---
+[INFO] skip non existing resourceDirectory E:\Documentos\REPOSITORIO-LOCAL\FloraHub\floraHubBackend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ App ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.1:run (default-cli) < test-compile @ App <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.1:run (default-cli) @ App ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-11T09:49:22.845-03:00  INFO 19056 --- [App] [  restartedMain] florahub.backend.App.AppApplication      : Starting AppApplication using Java 21.0.10 with PID 19056 (E:\Documentos\REPOSITORIO-LOCAL\FloraHub\floraHubBackend\target\classes started by datac in E:\Documentos\REPOSITORIO-LOCAL\FloraHub\floraHubBackend)
+2026-09-11T09:49:22.849-03:00  INFO 19056 --- [App] [  restartedMain] florahub.backend.App.AppApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-09-11T09:49:22.903-03:00  INFO 19056 --- [App] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-11T09:49:22.905-03:00  INFO 19056 --- [App] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-11T09:49:23.510-03:00  INFO 19056 --- [App] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-11T09:49:23.641-03:00  INFO 19056 --- [App] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 5 JPA repository interfaces.
+2026-09-11T09:49:24.161-03:00  INFO 19056 --- [App] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-09-11T09:49:24.182-03:00  INFO 19056 --- [App] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-11T09:49:24.183-03:00  INFO 19056 --- [App] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-11T09:49:24.233-03:00  INFO 19056 --- [App] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1326 ms
+2026-09-11T09:49:24.440-03:00  INFO 19056 --- [App] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-11T09:49:24.692-03:00  INFO 19056 --- [App] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@589f99c9
+2026-09-11T09:49:24.694-03:00  INFO 19056 --- [App] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-11T09:49:24.714-03:00  INFO 19056 --- [App] [  restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/florahub (PostgreSQL 18.4)
+2026-09-11T09:49:24.773-03:00  INFO 19056 --- [App] [  restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 7 migrations (execution time 00:00.025s)
+2026-09-11T09:49:24.895-03:00  INFO 19056 --- [App] [  restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 7
+2026-09-11T09:49:24.899-03:00  INFO 19056 --- [App] [  restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-09-11T09:49:24.996-03:00  INFO 19056 --- [App] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-11T09:49:25.082-03:00  INFO 19056 --- [App] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-11T09:49:25.525-03:00  INFO 19056 --- [App] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-11T09:49:25.583-03:00  WARN 19056 --- [App] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-11T09:49:25.604-03:00  INFO 19056 --- [App] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/florahub]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: florahub/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-11T09:49:26.840-03:00  INFO 19056 --- [App] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-11T09:49:26.849-03:00  INFO 19056 --- [App] [  restartedMain] org.hibernate.orm.jdbc.batch             : HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-11T09:49:26.890-03:00  INFO 19056 --- [App] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-11T09:49:27.254-03:00  INFO 19056 --- [App] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-11T09:49:27.503-03:00  WARN 19056 --- [App] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-11T09:49:27.580-03:00  WARN 19056 --- [App] [  restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 690c977f-9360-406c-92da-dc8bce9721ad
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-11T09:49:27.589-03:00  INFO 19056 --- [App] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-09-11T09:49:28.041-03:00  INFO 19056 --- [App] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-09-11T09:49:28.050-03:00  INFO 19056 --- [App] [  restartedMain] florahub.backend.App.AppApplication      : Started AppApplication in 5.597 seconds (process running for 6.098)
+2026-09-11T09:49:37.302-03:00  INFO 19056 --- [App] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-11T09:49:37.307-03:00  INFO 19056 --- [App] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-11T09:49:37.308-03:00  INFO 19056 --- [App] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-11T09:49:37.535-03:00  INFO 19056 --- [App] [nio-8080-exec-1] o.s.ai.openai.OpenAiChatModel            : Could not process image media with data of type: URL. Only java.net.URI is supported for image URLs.
+2026-09-11T09:50:18.169-03:00  INFO 19056 --- [App] [nio-8080-exec-2] o.s.ai.openai.OpenAiChatModel            : Could not process image media with data of type: URL. Only java.net.URI is supported for image URLs.
+2026-09-11T10:36:54.275-03:00  WARN 19056 --- [App] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m29s300ms954µs200ns).
+2026-09-11T15:05:51.332-03:00  WARN 19056 --- [App] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h18m55s867ms194µs500ns).
